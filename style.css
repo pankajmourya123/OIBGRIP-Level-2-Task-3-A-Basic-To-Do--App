@@ -79,3 +79,8 @@
     text-decoration: line-through;
     opacity: 0.4;
   }
+
+ label{
+    font-size: 25px;
+    font-style: italic;
+  }
