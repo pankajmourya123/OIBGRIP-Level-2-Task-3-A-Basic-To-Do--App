@@ -57,7 +57,9 @@ form.addEventListener("submit", (e) => {
     title: title.value,
     description: description.value,
   });
-
+ 
   localStorage.setItem("tasks", JSON.stringify(tasks));
   showAllTasks();
+  title.value ="title";
+  description.value="description"
 });
