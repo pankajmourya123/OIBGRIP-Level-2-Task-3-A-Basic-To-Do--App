@@ -60,6 +60,5 @@ form.addEventListener("submit", (e) => {
  
   localStorage.setItem("tasks", JSON.stringify(tasks));
   showAllTasks();
-  title.value ="title";
-  description.value="description"
+
 });
